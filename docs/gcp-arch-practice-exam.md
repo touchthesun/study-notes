@@ -85,4 +85,99 @@ A:
     - Stackdriver is used for general purpose monitoring
     - Serial Console is used to troubleshoot and debug
 
-22. 
+22. Which type of Cloud Load Balancer can be used only for traffic within a GCP VPC Network?
+
+A: Internal Load Balancer
+
+23. Which of the following billing options are available for GCP Compute Engine? 
+A:
+    - Preemptible
+    - On Demand
+    - 1-3 year commit
+
+24. When creating a Compute Engine Instance, what are the available Instance Types?
+A:
+    - Custom
+    - Predefined
+Ref: https://cloud.google.com/compute/docs/instances/creating-instance-with-custom-machine-type
+
+25. Which of the following Location Types must be selected when deploying a GCP Cloud Function?
+
+A: Region
+Ref:  https://cloud.google.com/functions/docs/locations
+
+26. Which type of Cloud Load Balancer has Regional availability and can be used for Traffic which is external to a GCP VPN and is non-proxied?
+
+A: Network Load Balancer
+Ref: https://cloud.google.com/load-balancing/docs/choosing-load-balancer
+
+27. Which of the following are ideal Use Cases for GKE? (choose two)
+A:
+    - Portable Applications
+    - Cross-platform applications
+
+28. What is the minimum number of Instances for a Service deployed to the App Engine Standard Environment?
+
+A: 0
+Ref: https://cloud.google.com/appengine/docs/the-appengine-environments
+
+29. Which of the following most accurately describes an IAM Policy object?
+
+A: A list of bindings
+Ref: https://cloud.google.com/iam/docs/overview#iam_policy
+
+30. Which of the following are NOT valid Compute Engine Machine Types? (choose two)
+A: 
+    - Throughput optimized
+    - Graphics optimized
+Ref: https://cloud.google.com/compute/docs/machine-types#determining_a_machine_type_for_your_workload
+
+31. Cloud Data Studio provides which of the following services? (choose two)
+A:
+    - Report generation
+    - Dashboard generation
+
+32. When a Service has been deployed to the App Engine Flexible Environment, what is the minimum number of active Service Instances?
+
+A: 1
+Ref: https://cloud.google.com/appengine/docs/the-appengine-environments
+
+33. Which type of Load Balancer can be configured for use as a CDN (Content Delivery Network)?
+
+A: Global HTTPS
+Ref: 
+    - https://cloud.google.com/cdn/docs
+    - https://cloud.google.com/load-balancing/docs/choosing-load-balancer
+    - https://cloud.google.com/load-balancing/docs/https/setting-up-https
+
+
+34. Which of the following best describes the relationships between App Engine components?
+
+A: Services > Versions > Instances
+
+35. True or False: Child policies can restrict access granted at a higher level.A
+
+A: False
+
+36. When creating a Compute Engine Instance Group, what are the possible options available for Instance Group Type?
+
+###
+
+37. Which of the following are true of Cloud Storage Bucket Naming?
+
+###
+
+38. Which GCP Service provides API Management by using either Frameworks for App Engine, OAS (OpenAPI Specification), or gRPC?
+
+###
+
+39. Which GCP NoSQL database powers many of Google's services, including Search, Analytics, Maps, and Gmail?
+
+###
+
+40. Which GCP AI Service provides the ability to detect emotion and understand text using pre-trained models?
+
+###
+
+
+
