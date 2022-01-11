@@ -163,13 +163,16 @@ A: False
 
 ###
 
-37. Which of the following are true of Cloud Storage Bucket Naming?
-
-###
+37. Data can be uploaded to Cloud Storage without an internet connection using which of the following methods? (choose two)
+A: 
+    - Offline Media Import
+    - Cloud Transfer Appliance
 
 38. Which GCP Service provides API Management by using either Frameworks for App Engine, OAS (OpenAPI Specification), or gRPC?
 
-###
+A: Cloud Endpoints
+
+Ref: https://cloud.google.com/endpoints/docs/#the_endpoints_option
 
 39. Which GCP NoSQL database powers many of Google's services, including Search, Analytics, Maps, and Gmail?
 
@@ -178,6 +181,155 @@ A: False
 40. Which GCP AI Service provides the ability to detect emotion and understand text using pre-trained models?
 
 ###
+Ref: https://cloud.google.com/products/ai
 
+41. Within the same project, all App Engine Standard Instances can access and share which of the following services through the App Engine API? (choose two)
+A:
+    - Firestore / Datastore
+    - Memcache
+Ref: 
+    - https://cloud.google.com/appengine/docs/standard/python/memcache/
+    - https://cloud.google.com/appengine/docs/standard/nodejs/using-cloud-datastore
 
+42. Cloud Spanner Instance Configuration can be set to which of the following Location Types? (choose two)
 
+A: Regional, Multi-regional
+
+43. Which of the following is true concerning the pricing of the App Engine Standard Environment? (check all that apply)
+A:
+    - Free daily quotas in App Engine Standard Env
+    - Apps running in AE Standard are deployed to specific instance classes, cost depending
+    - Initial startup costs of 15 min each instance.
+
+44. Which of the following are NOT ideal use cases for Cloud Dataflow? (choose three)
+A:
+    - Short term object storage
+    - Data showering
+    - Long term object storage
+Ref: https://cloud.google.com/dataflow
+
+45. True or False: Cloud SQL read replicas and failover replicas are charged at the same rate as stand-alone instances.
+
+A: True
+
+46. Which of the following are true of Cloud Storage Bucket Naming?
+
+A: Buckets much have unique name across org
+
+47. Which of the following technologies can perform large-scale Data Analysis against data stored within BigQuery? (choose two)
+
+A: 
+    - DataProc
+    - Map REduce / Spark
+
+48. Which of the following is a Cloud Pub/Sub named resource to which Messages are sent by Publishers?
+
+A: Topic
+
+49. True or False: Cloud Dataparse provides automatic schema detection and suggests predictive transformations.
+
+A: False
+
+50. Which GCP Service provides API Management by using either Frameworks for App Engine, OAS (OpenAPI Specification), or gRPC?
+
+A: Cloud Endpoints
+
+51. Which of the following is true of Cloud HSM? (choose three)
+A:
+    - Keys your create and use cannot be removed from HSMs
+    - HSM protects crypto keys in fully managed service
+    - HSM is FIPS 140-2 Lv 3 certified
+
+52. Which of the following is true regarding GCP Resources within a single VPC?
+
+A: GCP VPCs are global so there are no restrictions
+
+53. Which Hybrid Connectivity service provides the highest available throughput?
+
+A: Dedicated Interconnect
+
+54. How long is the Instance startup time for Service Instances running in the App Engine Standard Environment?
+
+A: Seconds
+
+55. Cloud Functions support which of the following native trigger mechanisms? (choose three)
+A: 
+    - HTTP
+    - Cloud Pub/Sub
+    - Cloud Storage
+
+56. Which of the following are true of Cloud Storage Bucket Naming?
+
+A: Globally unique names
+
+57. Which of the following most accurately describes a Binding?
+
+A: Binds a list of members to a Role
+
+58. What are some common use cases for Cloud Functions? (choose two)
+A:
+    - Horizontal Scaling
+    - Microservice Arch
+
+59. True or False: The App Engine Standard environment is compatible with long-running background processes and threads.
+
+A: False
+
+60. How long is the Instance startup time for Service Instances running in the App Engine Flexible Environment?
+
+A: Minutes
+
+61. Which Cloud Service leverages Apache Beam?
+
+A: Dataflow
+
+Ref: https://cloud.google.com/dataflow
+
+62. What is the billing interval for Cloud Functions?
+
+A: 100 ms
+
+63. Which of the following objects CANNOT be GCP IAM Members? (choose two)
+A:
+    - Folders
+    - Organizations
+
+64. Which of the following is the most accurate description of a TPM?
+
+A: Hardware, firmware or virtual device that aids in securing machines
+Ref; https://cloud.google.com/blog/products/gcp/virtual-trusted-platform-module-for-shielded-vms-security-in-plaintext
+
+65. Which of the following features are NOT provided by Cloud Datastore? (choose two)
+A:
+    - HBase FS
+    - Relational Data Storage
+
+66. Which GCP Service provides cross-project VPC communication within the same or different organizations?
+
+A: VPC Network Peering
+
+67. Which of the following are true of GCP Zones? (choose two)
+A: 
+    - Zones are single failure domain
+    - fault tolerant HA apps should be deployed across multiple zones
+
+68. True or False: Hybrid Connectivity Interconnect can be used in combination with a GCP VPN.
+
+A: False
+
+69. Which type of Compute Engine SSD can be either SCSI or NVMe?
+
+A: Local Disk
+Ref: https://cloud.google.com/compute/docs/disks/#localssds
+
+70. Which AD (Active Directory) service can be used to integrate AD and Cloud Identity using SAML 2.0 to provide users with a single-sign-on experience?
+
+A: ADFS (Active Directory Federation Services)
+Ref: https://cloud.google.com/solutions/federating-gcp-with-active-directory-configuring-single-sign-on
+
+71. What is the default timeout setting for a Service Instance deployed to the App Engine Standard Environment?
+
+A: 60 Seconds
+Ref: https://cloud.google.com/appengine/docs/the-appengine-environments
+
+72. 
