@@ -1,19 +1,29 @@
 https://www.udemy.com/course/gcp-professional-cloud-architect-practice-exams-by-difficultly/
 
 
-1. Which GCP Service provides data integration APIs for data formats such as HL7v2, FHIR, and DICOM?
+1. Which of the following is true of Stackdriver Error Reporting?
 
-2. What is the Maximum Size of a Cloud Storage Bucket?
+A: Stackdriver Error reporting counts, analyzes, and aggregates crashes of GCP cloud services.
 
-3. Which GCP AI Service can perform a syntactical analysis of sentences by parsing them into tokens, such as nouns, verbs, and adjectives?
+2. True or False: SSH Debugging is available to Instances deployed to the App Engine Standard Environment.
+
+A: False
+
+3. True or False: In Google Storage, each older version of an object is charged at the same rate as the most recent version of the object.
+
+A: True
 
 4. Which of the following GCP Services is a columnar database which is meant to serve as an Analytics Data Warehouse?
 
-5. Why might an Organization choose Carrier Peering over Direct Peering for a Hybrid Connectivity solution?
+A: BigQuery
+
+5. Which of the following most accurately describes an IAM Role?
+
+A: A Role is a collection of Permissions
 
 6. Which of the following best describes a Kubernetes Engine Cluster?
 
-Correct Answer: A group of Kubernetes nodes with at least one master node and at least one host node.
+A: A group of Kubernetes nodes with at least one master node and at least one host node.
 
 7. Which of the following most accurately describes the GCP Resource Hierarchy?
 
@@ -34,9 +44,9 @@ A:
     - global replication of relational data
     - storing petabytes of data
 
-11. Which of the following GCP Services is a columnar database which is meant to serve as an Analytics Data Warehouse?
+11. What service provides the ability to Design, Secure, Publish, Analyze, Monitor, and Monetize APIs?
 
-A: BigQuery
+A: Apigee
 
 12. Which Cloud Service provides features to visually explore, scrub, clean, and prepare structured and unstructured data?
 
@@ -64,7 +74,7 @@ A: PaaS - https://cloud.google.com/products#application_platform
 17. What disk types can be attached to GCP Compute Engine Instance:
 A:
     - Persistent HDD
-    - Local HDD
+    - Local SSD
     - Persistent SSD
 
 18. Which is true of an Object uploaded to Cloud Storage bucket?
@@ -159,9 +169,9 @@ A: Services > Versions > Instances
 
 A: False
 
-36. When creating a Compute Engine Instance Group, what are the possible options available for Instance Group Type?
+36. Which GCP Service provides everything you need to write, debug, and deploy Kubernetes applications?
 
-###
+A: Cloud Code
 
 37. Data can be uploaded to Cloud Storage without an internet connection using which of the following methods? (choose two)
 A: 
@@ -174,14 +184,16 @@ A: Cloud Endpoints
 
 Ref: https://cloud.google.com/endpoints/docs/#the_endpoints_option
 
-39. Which GCP NoSQL database powers many of Google's services, including Search, Analytics, Maps, and Gmail?
+39. True or False: Only one project is billed when using a Shared VPC.
 
-###
+A: False
 
-40. Which GCP AI Service provides the ability to detect emotion and understand text using pre-trained models?
+40. Which of the following statements are true of GCP Projects? (choose two)
 
-###
-Ref: https://cloud.google.com/products/ai
+A:
+    - Projects can contain resources in different regions
+    - Projects are configured with a default region and zone
+
 
 41. Within the same project, all App Engine Standard Instances can access and share which of the following services through the App Engine API? (choose two)
 A:
@@ -214,7 +226,7 @@ A: True
 
 46. Which of the following are true of Cloud Storage Bucket Naming?
 
-A: Buckets much have unique name across org
+A: Buckets much have globally unique names
 
 47. Which of the following technologies can perform large-scale Data Analysis against data stored within BigQuery? (choose two)
 
@@ -332,4 +344,14 @@ Ref: https://cloud.google.com/solutions/federating-gcp-with-active-directory-con
 A: 60 Seconds
 Ref: https://cloud.google.com/appengine/docs/the-appengine-environments
 
-72. 
+72. Which of the following Runtimes are provided by the App Engine Standard environment? (check all that apply)
+
+A: Go, PHP, Python, Java, Node
+
+73. True or False: Cloud Dataproc can leverage Preemptive Compute Engine VMs.
+
+A: True
+
+74. Which GCP AI Service provides the ability to train custom image models with an easy-to-use graphical interface?
+
+A: Vision AI
