@@ -355,3 +355,218 @@ A: True
 74. Which GCP AI Service provides the ability to train custom image models with an easy-to-use graphical interface?
 
 A: Vision AI
+
+75. Which GCP Service provides a custom-designed family of ASIC (Application-Specific Integrated Circuit) hardware accelerators, which are specifically for machine learning?
+
+A: Cloud TPU 
+Ref: https://cloud.google.com/tpu
+
+76. Which Stackdriver-related GCP Service provides the ability to search through application logs?
+
+A: Logs Viewer
+Ref: https://cloud.google.com/tools/visual-studio/docs/log-viewer
+
+77. True or False: Kubernetes Objects are used to represent the state of a Cluster.
+
+A: True
+
+78. Which of the following most accurately describes an Effective Policy for a GCP Resource?
+
+A: The union of the resource policy and all inherited policies
+
+79. True or False: GCP provides a convenient export service for pushing billing data into Bigtable for analysis.
+
+A: False. Billing data can be exported to BigQuery but not BigTable
+
+80. Which of the following statements are true regarding the cost of GKE? (choose three)
+
+A:
+    - GKE service is free, charges apply for resources provisioned
+    - GKE Host Notes are not free
+    - Cluster Master Node is not free
+
+81. What is the Maximum number of Clusters for a Cloud Bigtable Instance?
+
+A: 4
+Ref: https://cloud.google.com/bigtable/docs/instances-clusters-nodes
+
+82. How frequently should an organization plan to access data which has been stored in a Coldline Storage Bucket?
+
+A: Quarterly
+
+83. Which of the following is true regarding BigQuery pricing? (choose three)
+
+A:
+    - Charges apply for BigQuery storage and access via API
+    - Charged per second
+    - Discounts provided
+
+84. Which Google Hybrid Connectivity Solution does not require GCP, has no setup or maintenance costs, and provides a high-throughput connection between On-Prem Networks and Google's Edge Network?
+
+A: Direct Peering
+Ref: https://cloud.google.com/hybrid-connectivity/
+https://cloud.google.com/vpc/docs/shared-vpc
+https://cloud.google.com/vpc/docs/vpc-peering
+https://cloud.google.com/vpn/docs/concepts/choosing-a-hybrid-solution
+https://cloud.google.com/interconnect/docs/how-to/direct-peering
+
+85. True or False: Cloud Spanner Replication settings can be updated after an Instance has been deployed.
+
+A: False
+Ref: https://cloud.google.com/spanner/docs/instances#configuration
+
+86. Stackdriver has an integrated service to export logs for Analysis to which of the following destinations? (choose three)
+A:
+    - PubSub
+    - Storage
+    - BigQuery
+
+Ref: Reference: https://cloud.google.com/logging/docs/export/
+
+87. Which of the following Cloud Services leverages BGP (Boarder Gateway Protocol)?
+
+A: Cloud Router
+Ref: https://cloud.google.com/router/docs
+
+88. Which of the following best describes the Availability of Compute Engines during maintenance events?
+
+A: Maintenance does not disrupt availability / aka transparent maintenance
+
+89. True or False: Direct Peering can be implemented for G Suite Enterprise Services without creating a GCP account.
+
+A: True
+
+Note: "Direct Peering exists outside of Google Cloud Platform.
+Direct Peering can be used by GCP, but does not require it.
+Direct Peering can be used for G Suite Platform, existing outside of GCP."
+
+90. Which of the following are valid GCP Role Types? (choose three)
+
+A:
+    - Primitive
+    - Custom
+    - Predefined
+
+Ref: https://cloud.google.com/iam/docs/overview#roles
+
+91. GCP Cloud SQL provides which of the following Backup types? (choose two)
+
+A: 
+    - Automated
+    - On-demand
+
+92. Cloud Bigtable Clusters can be deployed to which of the following Location Types?
+
+A: Zones
+Ref: https://cloud.google.com/bigtable/docs/instances-clusters-nodes#clusters
+    "Each cluster is located in a single zone."
+
+93. Which Google Hybrid Connectivity Solution does not require GCP, has additional service provider costs, and provides a high-throughput connection between On-Prem networks and Google's Edge Network?
+
+A: Carrier Peering
+Ref: https://cloud.google.com/hybrid-connectivity/
+https://cloud.google.com/vpc/docs/shared-vpc
+https://cloud.google.com/vpc/docs/vpc-peering
+https://cloud.google.com/vpn/docs/concepts/choosing-a-hybrid-solution
+https://cloud.google.com/interconnect/docs/how-to/direct-peering
+https://cloud.google.com/interconnect/docs/how-to/carrier-peering
+https://cloud.google.com/interconnect/docs/how-to/choose-type
+
+94. Data can be uploaded to Cloud Storage through a Network using which of the following methods? (choose three)
+
+A: 
+    - Cloud SDK / gsutil
+    - File System Mounting using Cloud Fuse
+    - Google Cloud Console
+
+Ref: https://cloud.google.com/storage/docs/uploading-objects
+https://cloud.google.com/storage/docs/gcs-fuse
+
+95. Which of the following is true regarding GCP Resources within a single VPC Subnet?
+
+A: All resources must be within the same Region, because subnets are Regional resources.
+
+96. True or False: Cloud Datastore can provide both Strong Consistency and Eventual Consistency.
+
+A: True 
+Ref: Cloud Datastore queries can deliver their results at either of two consistency levels:
+    - Strongly consistent queries guarantee the freshest results, but may take longer to complete.
+    - Eventually consistent queries generally run faster, but may occasionally return stale results.
+
+
+Reference: https://cloud.google.com/appengine/docs/standard/python/datastore/data-consistency
+
+97. When creating a Google Kubernetes Engine Cluster, what geographical options are available? (choose three)
+
+A:
+    - Zonal
+    - Multi-zonal
+    - Regional
+
+Ref: https://cloud.google.com/kubernetes-engine/docs/concepts/regional-clusters#overview
+
+98. Which Cloud Spanner Instance setting provides for a 99.999% (5-9's) SLA?
+
+A: Multi-Regional
+
+99. Which of the following are NOT components of Cloud Firestore? (choose two)
+
+A:
+    - Table
+    - Property
+
+Ref: https://cloud.google.com/datastore/docs/concepts/overview#comparison_with_traditional_databases
+
+100. Which Google Cloud Service is most similar to MS SharePoint?
+
+A: Drive Enterprise
+
+101. Which of the following are the two main components of a Shared VPC?
+
+A:
+    - Host Project
+    - Service Project
+
+102. Which Google Hybrid Connectivity Solution requires GCP and should be used to provide a high-throughput connection between On-Prem networks and Google's Edge Network when over 10Gbps of bandwidth is required?
+
+A: Dedicated Interconnect
+
+103. How Many Edge Networks does Google provide worldwide?
+
+A: 101-500
+Ref: https://cloud.google.com/vpc/docs/edge-locations
+
+104. Which of the following Hybrid Connectivity services provide a strict SLA that will pay out Financial Credits if the SLA is not met? (choose two)
+
+A:
+    - Dedicated Interconnect
+    - Partner Interconnect
+
+    Ref: https://cloud.google.com/interconnect/sla
+
+105. Which of the following actions can be performed on Cloud Bigtable without any Downtime? (choose three)
+
+A: 
+    - Update the number of Nodes in a cluster
+    - Update the number of Clusters in an Instance
+    - Update the App profile for the Instance / replica settings
+
+106. True or False: GCP Partner Interconnect requires a Google Network PoP (Point of Presence) in a geographically close location.
+
+A: False
+Ref: "Partner Interconnect also allows organizations whose data centers are geographically distant from a Google Cloud region or Point of Presence (POP) to connect to GCP, using our partners connections."
+
+Reference: https://cloud.google.com/blog/products/gcp/introducing-partner-interconnect-a-fast-economical-onramp-to-gcp
+
+107. Which Google Hybrid Connectivity Solution requires GCP and should be used to provide a high-throughput connection between On-Prem networks and Google's Edge Network when less than 10Gbps of bandwidth is required?
+
+A: Partner Interconnect
+Ref: https://cloud.google.com/hybrid-connectivity/
+https://cloud.google.com/vpc/docs/shared-vpc
+https://cloud.google.com/vpc/docs/vpc-peering
+https://cloud.google.com/vpn/docs/concepts/choosing-a-hybrid-solution
+https://cloud.google.com/interconnect/docs/how-to/direct-peering
+https://cloud.google.com/interconnect/docs/how-to/carrier-peering
+https://cloud.google.com/interconnect/docs/how-to/choose-type
+
+108. 
