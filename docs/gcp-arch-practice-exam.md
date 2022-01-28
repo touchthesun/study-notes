@@ -569,4 +569,171 @@ https://cloud.google.com/interconnect/docs/how-to/direct-peering
 https://cloud.google.com/interconnect/docs/how-to/carrier-peering
 https://cloud.google.com/interconnect/docs/how-to/choose-type
 
-108. 
+108. Which type of Cloud Load Balancers offer Session Affinity? (select all that apply)
+
+A: 
+    - Global HTTPS
+    - Internal Load Balancer
+    - Global TCP Proxy
+    - Global SSL Proxy
+    - Network Load Balancer
+
+109. What is the First-byte Latency for Coldline Cloud Storage?
+
+A: Miliseconds
+
+110. Which GCP Storage Service is ideal for Time-Series data?
+
+A: Cloud BigTable
+Ref: https://cloud.google.com/bigtable/docs/overview#what-its-good-for
+
+111. Which of the following are components of Cloud Datastore? (choose four)
+A: 
+    - Key
+    - Property
+    - Entity
+    - Kind
+
+Ref: https://cloud.google.com/datastore/docs/concepts/overview#comparison_with_traditional_databases
+
+112. Which GCP Service supports both Static and Dynamic Routing and provides a single Secure Tunnel?
+
+A: Classic VPN
+Ref: https://cloud.google.com/vpn/docs/how-to/choosing-a-vpn#comparison-table
+
+113. True or False: When connecting two GCP VPCs, there are no bandwidth bottlenecks or single points of failure.
+
+A: True
+
+114. Which type of GCP Disk Resource provides the best IOPs and Throughput?
+
+A: Local SSD
+
+115. Which of the following Services provide the ability to parallelly Query, Process, and Analyze data that is stored in Cloud Bigtable? (choose four)
+
+A: 
+    - Map Reduce
+    - HBase API
+    - Hive & Pig
+    - DataProc
+
+Ref: https://cloud.google.com/dataproc/docs/concepts/connectors/cloud-bigtable#using_with >
+https://cloud.google.com/bigtable/docs/hbase-bigtable >
+https://cloud.google.com/bigtable/docs/integrations
+https://medium.com/@robertjohn_15390/dataproc-is-managed-hadoop-pig-hive-and-spark-on-gcp-113f070f36a
+https://cloud.google.com/solutions/using-apache-hive-on-cloud-dataproc
+https://cloud.google.com/sdk/gcloud/reference/dataproc/jobs/submit/pig
+
+
+116. Which of the following statements is true regarding Stackdriver logging? (choose two)
+A: 
+    - Stackdriver provides an agent for EC2 and GCP CE.
+    - Stackdriver Logging has public API.
+
+117. Which of the following GCP Resources and GCP Services are free of charge? (choose two)
+A:
+    - Ingress
+    - GCP Resources that have not met daily quota
+
+118. Which protocol is used to access GCP NAS (Network Attached Storage)?
+
+A: NFSv3
+Ref: https://cloud.google.com/filestore/docs/nfs
+https://serverfault.com/questions/134467/why-pick-a-nas-over-nfs
+
+119. Which of the following is the recommended hybrid connectivity method to access GCP Resources?
+
+A: ###
+
+120. Which GCP Storage Service is ideal for Time-Series data?
+
+A:###
+
+121. True or False: The minimum storage duration for Nearline Storage is 90 days. Objects deleted earlier than 90 days will still be charged for 90 days of storage.
+
+A: False
+Ref: https://cloud.google.com/storage/pricing#archival-pricing
+
+122. Which of the following Location (Deployment Area) Types are available for Cloud Datastore? (choose two)
+
+A: 
+    - Region
+    - Multi-region
+
+123. In the event that BigQuery performance begins to degrade due to a single overgrown table, what are two options for increasing performance? (choose two)
+
+A:
+    - Vertical Partitioning
+    - Horizontal Partitioning
+Ref: https://cloud.google.com/bigquery/docs/partitioned-tables
+https://cloud.google.com/bigquery/docs/creating-column-partitions
+
+124. What type of Replication options are available for Persistent Disks? (choose two)
+
+A: 
+    - Zonal
+    - Synchronous Regional
+
+125. Which of the following are features of Kubernetes Objects? (choose three)
+
+A: 
+    - Kuberenetes Objects define and describe containerized applications
+    - Kuberenetes Objects define and describe application policies
+    - Kuberenetes Objects define and describe resources available to containerized applications
+Ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects
+https://kubernetes.io/docs/concepts/#kubernetes-objects
+https://medium.com/hashmapinc/30-second-kubernetes-concepts-cheat-sheet-98ba813194cb
+
+
+126. True or False: Cloud Compute Engine Local Disks can be encrypted with Custom Keys.
+
+A: False
+Ref: "You cannot use your own keys with local SSDs because local SSDs do not persist beyond the life of a virtual machine"
+
+ - https://cloud.google.com/compute/docs/disks/customer-supplied-encryption#restrictions
+
+127. True or False: Hybrid Connectivity Interconnect can be used in combination with a GCP VPN.
+
+A: False 
+
+Ref:"you can't use Google Cloud VPN in combination with Dedicated Interconnect, but you can use your own VPN solution."
+
+128. Which of the following are NOT true of GCP Dual-Regions? (choose two)
+
+A:  
+    - Dual regions can consist of more than two regions
+    - Dual regions exist in the Americas, Europe and Asia
+
+Ref: Currently, nam4 and eur4 are the only Dual-Regions available.
+"Cloud KMS resources can be created in the following dual-regional locations"
+"A dual-region is a specific pair of regions"
+"Objects stored in a multi-region or dual-region are geo-redundant."
+
+
+References:
+https://cloud.google.com/storage/docs/locations#location-dr
+https://cloud.google.com/kms/docs/locations#dual_regional
+
+129. What is the Maximum size for Compute Engine Persistent Disks?
+
+A: 64TB for SSD and HDD
+
+130. Which of the following is true of App Engine Flexible Environment Billing? (choose two)
+
+A: 
+    - 1 minute minimum charge
+    - billing interval is per second per core, memory and disk being used.
+
+131. Which GCP Service supports Dynamic Routing and provides *one or more* Secure Tunnels?
+
+A: HA VPN
+
+132. Which GCP Hybrid Connectivity configuration setting is required to obtain Egress Rate discounts?
+
+A: Discounts enabled per project
+
+133. Which Google Cloud Service provides G Suite Drive without the cost of superfluous services like Gmail, Calendar, and Meet?
+
+A: Drive Enterprise
+
+134. 
